@@ -21,11 +21,12 @@ FastAPI validation service
 3. `cd get_form_with_fastapi`
 4. `docker build -t check_form .`
 5. `docker run --name check_form_c -p 8000:8000 check_form`
+
 ----- locally
-6. `cd app`
-7. `pip install asyncio aiohttp`
-8. `python test_your_request.py` -- to test your own request
-9. `python test_requests.py` -- to test built-in requests
+1. `cd app`
+2. `pip install asyncio aiohttp`
+3. `python test_your_request.py` -- to test your own request
+4. `python test_requests.py` -- to test built-in requests
 
 ## Description
 Elements of the project:
